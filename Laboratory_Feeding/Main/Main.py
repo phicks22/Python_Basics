@@ -1,7 +1,9 @@
 from Model.Shark import Shark
 from Model.Snake import Snake
+from Model.Snail import Snail
 from Animal_Containers.Sharks import Sharks
 from Animal_Containers.Snakes import Snakes
+from Animal_Containers.Snails import Snails
 
 # Sharks:
 horn = Shark('Horn Shark', 'Heterodontus', 'francisci', 4.0, 25)
@@ -21,6 +23,12 @@ corn = Snake('Corn Snake', 'Pantherophis', 'guttatus', 6.0, 8)
 ball_python = Snake('Ball Python', 'Python', 'regius', 6.0, 30)
 blk_king = Snake('Mexican Black King Snake', 'Lampropeltis', 'getula nigrita', 5.0, 30)
 
+# Snails:
+moon = Snail('Moon Snail', 'Neverita', 'reclusiana', 5.5, 7)
+unicorn = Snail('Angular Unicorn', 'Acanithucella', 'spirata', 'Unknown', 'Unknown')
+kellets = Snail('Kellet\'s Welk', 'Kelletia', 'keletii', 6.9, 50)
+chestnut = Snail('Chestnut Cowrie', 'Neobernaya', 'spadicia', 2.6, 'Unknown')
+
 
 print('Sharks:')
 
@@ -34,3 +42,8 @@ snakes = [corn, ball_python, blk_king]
 snake_object = Snakes(snakes)
 snake_object.print_all_snakes()
 
+print('\n')
+print('Snails:')
+snails = [moon, unicorn,kellets,chestnut]
+snail_object = Snails(snails)
+snail_object.print_all_snails()
