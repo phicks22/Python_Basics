@@ -3,7 +3,7 @@ import string
 
 class Animal:
 
-    def __init__(self, common_name: string, genus: string, species: string, max_length: float, max_age: int or string):
+    def __init__(self, common_name: string, genus: string, species: string, max_length: float or string, max_age: int or string):
         self.velocity = 0
         self.common_name = common_name
         self.genus = genus
@@ -16,7 +16,6 @@ class Animal:
         print('Scientific name: ', self.genus, self.species)
         print('Max length: ', self.max_length, 'feet')
         print('Max age: ', self.max_age, 'years')
-
 
     def faster(self):
         self.velocity += 1

@@ -1,4 +1,3 @@
-
 class Sharks:
 
     def __init__(self, shark_list):
