@@ -2,14 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2da3dced-2935-4e9c-a04a-f4fc951d8c22" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Laboratory/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Resources/Parkers_Lab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Animal_Containers/Sharks.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Animal_Containers/Snails.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Animal_Containers/Snakes.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Animal_Containers/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/Laboratory/Laboratory_Animals.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/Main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Main/Main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Laboratory/Laboratory_Animals.py" beforeDir="false" afterPath="$PROJECT_DIR$/Laboratory/Laboratory_Animals.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Model/Animal.py" beforeDir="false" afterPath="$PROJECT_DIR$/Model/Animal.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Model/Shark.py" beforeDir="false" afterPath="$PROJECT_DIR$/Model/Shark.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Model/Snail.py" beforeDir="false" afterPath="$PROJECT_DIR$/Model/Snail.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Model/Snake.py" beforeDir="false" afterPath="$PROJECT_DIR$/Model/Snake.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,49 +77,65 @@
       <option name="presentableId" value="Default" />
       <updated>1589657806844</updated>
     </task>
+    <task id="LOCAL-00001" summary="Deleted Animal_Containers and added class Laboratory_Animals">
+      <created>1589828608793</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1589828608793</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Deleted Animal_Containers and added class Laboratory_Animals" />
+    <option name="LAST_COMMIT_MESSAGE" value="Deleted Animal_Containers and added class Laboratory_Animals" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="137" y="18" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1589828529951">
+    <state x="137" y="18" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1589829517617">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="137" y="18" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1589828529951" />
-    <state x="463" y="118" key="FileChooserDialogImpl" timestamp="1589828528777">
+    <state x="137" y="18" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1589829517617" />
+    <state x="309" y="0" key="CommitChangelistDialog2" timestamp="1589828603012">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1589828528777" />
-    <state width="1345" height="223" key="GridCell.Tab.0.bottom" timestamp="1589828551329">
+    <state x="309" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1589828603012" />
+    <state x="463" y="118" key="FileChooserDialogImpl" timestamp="1589829516909">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="223" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1589828551329" />
-    <state width="1345" height="223" key="GridCell.Tab.0.center" timestamp="1589828551329">
+    <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1589829516909" />
+    <state width="1345" height="212" key="GridCell.Tab.0.bottom" timestamp="1589831741268">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="223" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1589828551329" />
-    <state width="1345" height="223" key="GridCell.Tab.0.left" timestamp="1589828551329">
+    <state width="1345" height="212" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1589831741268" />
+    <state width="1345" height="212" key="GridCell.Tab.0.center" timestamp="1589831741268">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="223" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1589828551329" />
-    <state width="1345" height="223" key="GridCell.Tab.0.right" timestamp="1589828551329">
+    <state width="1345" height="212" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1589831741268" />
+    <state width="1345" height="212" key="GridCell.Tab.0.left" timestamp="1589831741268">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="223" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1589828551329" />
-    <state width="1345" height="223" key="GridCell.Tab.1.bottom" timestamp="1589828554822">
+    <state width="1345" height="212" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1589831741268" />
+    <state width="1345" height="212" key="GridCell.Tab.0.right" timestamp="1589831741268">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="223" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1589828554822" />
-    <state width="1345" height="223" key="GridCell.Tab.1.center" timestamp="1589828554822">
+    <state width="1345" height="212" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1589831741268" />
+    <state width="1345" height="212" key="GridCell.Tab.1.bottom" timestamp="1589831741268">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="223" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1589828554822" />
-    <state width="1345" height="223" key="GridCell.Tab.1.left" timestamp="1589828554822">
+    <state width="1345" height="212" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1589831741268" />
+    <state width="1345" height="212" key="GridCell.Tab.1.center" timestamp="1589831741268">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="223" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1589828554822" />
-    <state width="1345" height="223" key="GridCell.Tab.1.right" timestamp="1589828554822">
+    <state width="1345" height="212" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1589831741268" />
+    <state width="1345" height="212" key="GridCell.Tab.1.left" timestamp="1589831741268">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="223" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1589828554822" />
+    <state width="1345" height="212" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1589831741268" />
+    <state width="1345" height="212" key="GridCell.Tab.1.right" timestamp="1589831741268">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1345" height="212" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1589831741268" />
     <state x="184" y="6" key="SettingsEditor" timestamp="1589689707205">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -134,5 +148,28 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="253" y="99" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1366.728@0.0.1366.728" timestamp="1589828390738" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Laboratory/Laboratory_Animals.py</url>
+          <line>12</line>
+          <option name="timeStamp" value="59" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Laboratory/Laboratory_Animals.py</url>
+          <line>16</line>
+          <option name="timeStamp" value="60" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="PythonConfigurationType">
+        <watch expression="animal_obj.max_age" />
+        <watch expression="__py_debug_temp_var_1386460186" />
+        <watch expression="__py_debug_temp_var_1560041822" />
+      </configuration>
+    </watches-manager>
   </component>
 </project>
