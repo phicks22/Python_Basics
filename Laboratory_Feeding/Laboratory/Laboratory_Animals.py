@@ -19,6 +19,7 @@ class Laboratory_Animals:
             existing_list.append(animal_obj)
             self.animal_dict[aquarium_key] = existing_list
 
+#TODO need function to read Parkers_Lab to create the initial dictionary
 
 lab = Laboratory_Animals()
 horn = Shark('Horn Shark', 'Heterodontus', 'francisci', 4.0, 25, 'Temperate')
